@@ -17,7 +17,7 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * Created in Methodia on 13.04.2017.
+ * @author Liferay
  */
 @Component(
         immediate = true,
