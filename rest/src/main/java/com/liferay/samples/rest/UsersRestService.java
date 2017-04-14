@@ -37,7 +37,7 @@ public class UsersRestService extends Application {
 	public String getUsers() {
 		StringBuilder result = new StringBuilder();
 
-		for (User user : _userLocalService.getUsers(QueryUtil.ALL_POS, -QueryUtil.ALL_POS)) {
+		for (User user : _userLocalService.getUsers(QueryUtil.ALL_POS, QueryUtil.ALL_POS)) {
 			result.append(user.getFullName()).append(",\n");
 		}
 
