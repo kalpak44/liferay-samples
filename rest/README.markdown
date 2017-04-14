@@ -19,4 +19,4 @@ endpoints for it. To do so, go to the Control Panel &rarr; *System* &rarr;
   `(jaxrs.application=true)`.
 
 Then you can access the service via
-[http://localhost:8080/o/rest-test/blade.users/list/](http://localhost:8080/o/rest-test/users/list/).
+[http://localhost:8080/o/rest-test/users/list/](http://localhost:8080/o/rest-test/users/list/).
