@@ -12,7 +12,13 @@ import org.osgi.service.component.annotations.Component;
 /**
  * @author Liferay
  */
-@Component(service = ServiceWrapper.class)
+@Component(
+        immediate = true,
+        property = {
+                "service.ranking:Integer=10000"
+        },
+        service = ServiceWrapper.class
+)
 public class UserLocalServiceHook extends UserLocalServiceWrapper {
 
 	public UserLocalServiceHook() {
